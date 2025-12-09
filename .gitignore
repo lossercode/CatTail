@@ -1,0 +1,11 @@
+node_modules/
+
+# 忽略 Python 编译缓存
+./__pycache__/
+# 忽略所有 .pyc 字节码文件（含子目录）
+*.pyc
+# 忽略 Python 3.8+ 新增的 __pycache__ 外的字节码文件目录
+.pytest_cache/
+.python-version
+*.pyo
+*.pyd
